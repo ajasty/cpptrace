@@ -200,6 +200,7 @@ target_sources(
     ${target_name} PRIVATE
     include/cpptrace/cpptrace.hpp
     include/ctrace/ctrace.h
+    include/ctrace/ctrace-exp.h
 )
 
 # add /src files to target
@@ -214,6 +215,7 @@ target_sources(
     src/binary/safe_dl.cpp
     src/cpptrace.cpp
     src/ctrace.cpp
+    src/ctrace-exp.cpp
     src/demangle/demangle_with_cxxabi.cpp
     src/demangle/demangle_with_nothing.cpp
     src/demangle/demangle_with_winapi.cpp
